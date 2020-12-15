@@ -1,0 +1,8 @@
+AD函数    在syn.c内封装
+void ADCstart_read();//开始读AD
+u16 Get_Adc_Average(u8 ch,u8 times);//读取数据
+void ADCend_read();//关闭读AD
+
+串口函数  在uarts.c内封装
+接收函数void CopeSerialData(unsigned char ucData)//数据接收格式 字母（A-F）+数字，避免一直接收数据，调用接收数据时extern x1-x6即可。
+发送函数void UART1_Put_String(char *Str)//这部分你直接发到电脑上位机上，直接使用put_string就行。

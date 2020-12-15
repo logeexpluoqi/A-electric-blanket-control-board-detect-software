@@ -1,0 +1,16 @@
+限位开关(上): KEY8
+限位开关(下): KEY7
+按钮(左): KEY5
+按钮(右): KEY6
+
+电源:
+    GND |
+    24V |
+    ACN |
+    ACL V
+
+电机:
+    PUL (red)
+    DIR (green)
+    ENA (blue)
+    GND (black)
